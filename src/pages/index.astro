@@ -1,0 +1,198 @@
+---
+import Layout from "../layouts/layout.astro";
+import { Image } from "astro:assets";
+---
+
+<Layout title="Jostick Quiel">
+	<main>
+		<div class="flex space-x-8 absolute top-[8%] right-[10%]">
+			<a
+				href="https://www.linkedin.com/in/jostick-omar-quiel-espinosa-870872120/"
+				target="_blank"
+			>
+				<Image width="40" height="40" src="/linkedin.svg" alt="" />
+			</a>
+			<a href="https://github.com/atomikigai" target="_blank">
+				<Image width="40" height="40" src="/github.svg" alt="" />
+			</a>
+		</div>
+		<div class="w-full h-screen flex flex-col justify-center items-center">
+			<div class="text-white text-center flex items-center flex-col">
+				<div class="m-3">
+					<Image
+						width="300"
+						class="rounded-full"
+						height="300"
+						src="/profile.avif"
+						alt=""
+					/>
+				</div>
+				<div class="flex items-center">
+					<h1 class="font-medium text-[3rem] title">
+						<span class="text-[#b2ff37]">Hola,</span> soy Jostick
+						Quiel
+					</h1>
+					<span class="text-[3rem]">✌️</span>
+				</div>
+				<p class="mt-2 font-medium text-lg">
+					Un desarrollador fullstack centrado en la fluidez y el
+					diseño.
+				</p>
+			</div>
+
+			<a href="#exp" class="mt-[5%] flex justify-center items-center flex-col cursor-pointer animate-bounce">
+				<Image
+					width="35"
+					class="rounded-lg"
+					height="35"
+					src="/fast-down-circle.svg"
+					alt=""
+				/>
+				<!-- <p class="mt-5 text-[#78ae22]">Continuar</p> -->
+			</a>
+		</div>
+
+		<div
+		id="exp"
+			class=" w-full h-[60vh] text-white flex justify-center items-center space-x-4"
+		>
+			<div class="w-[40%] flex p-6 flex-col">
+				<h1 class="text-3xl font-bold mb-3 text-[#b2ff37]">
+					Mi experiencia 🚀
+				</h1>
+				<p class="text-lg">
+					Me considero un desarrollador fullstack. Actualmente, manejo
+					tecnologías como ReactJS, NextJS, Rust, Axum, MySQL,
+					PostgresSQL, el control de versiones lo realizo con git.
+				</p>
+
+				<div
+					class="mt-6 p-6 flex rounded-[12px] space-x-6 border border-slate-600"
+				>
+					<div class="flex justify-center items-center">
+						<Image
+							width="200"
+							class="rounded-lg"
+							height="200"
+							src="/consultia.avif"
+							alt=""
+						/>
+					</div>
+					<div class="flex flex-col">
+						<h1 class="font-semibold">
+							Centro Interamericano de administraciones
+							tributarias
+						</h1>
+						<p class="text-[#73a522] font-medium">
+							Febrero 2022 - Julio 2022
+						</p>
+						<p class="mt-2">
+							Ocupe el puesto de frontend developer, desarrollando
+							pantallas con diseño responsivo y elaborando toda la
+							lógica interactiva del lado del cliente, así como el
+							consumo de las apis.
+						</p>
+					</div>
+				</div>
+
+				<div
+					class="mt-6 p-6 flex rounded-[12px] space-x-6 border border-slate-600"
+				>
+					<div class="flex justify-center items-center">
+						<Image
+							width="200"
+							class="rounded-lg"
+							height="200"
+							src="/ciat.avif"
+							alt=""
+						/>
+					</div>
+					<div class="flex flex-col">
+						<h1 class="font-semibold">
+							Centro Interamericano de administraciones
+							tributarias
+						</h1>
+						<p class="text-[#73a522] font-medium">
+							Febrero 2022 - Julio 2022
+						</p>
+						<p class="mt-2">
+							Desempeño un papel como programador semi-senior
+							fullstack donde ejecuto proyectos basados en la
+							metodología scrum, soporte a usuarios internos o
+							externos y mejoro procesos desfasados con el tiempo.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="w-[40%] flex justify-center items-center flex-col">
+				<div class="flex space-x-6 mb-6">
+					<div>
+						<Image
+							width="100"
+							class="rounded-lg"
+							height="100"
+							src="/rust.avif"
+							alt=""
+						/>
+					</div>
+					<div>
+						<Image
+							width="100"
+							class="rounded-lg"
+							height="100"
+							src="/postgres.avif"
+							alt=""
+						/>
+					</div>
+					<div>
+						<Image
+							width="100"
+							class="rounded-lg"
+							height="100"
+							src="/react.avif"
+							alt=""
+						/>
+					</div>
+					<div>
+						<Image
+							width="100"
+							class="rounded-lg"
+							height="100"
+							src="/mysql.avif"
+							alt=""
+						/>
+					</div>
+				</div>
+				<div class="flex space-x-6">
+					<div>
+						<Image
+							width="100"
+							class="rounded-lg"
+							height="100"
+							src="/next.avif"
+							alt=""
+						/>
+					</div>
+					<div>
+						<Image
+							width="100"
+							class="rounded-lg"
+							height="100"
+							src="/ts.avif"
+							alt=""
+						/>
+					</div>
+					<div>
+						<Image
+							width="100"
+							class="rounded-lg"
+							height="100"
+							src="/js.avif"
+							alt=""
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+</Layout>
