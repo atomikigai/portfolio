@@ -1,4 +1,0 @@
-## 🚀 Utilizado
-
-AstroJS
-
